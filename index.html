@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <p id="originalString"></p>
+    <p id="convertedNumber"></p>
+    <p id="originalType"></p>
+    <p id="convertedType"></p>
+
+    <script>
+        var str = "472";
+
+        var num = Number(str);
+
+        document.getElementById("originalString").textContent = " Value : " + str;
+        document.getElementById("originalType").textContent = "Type : " + typeof str;
+
+        document.getElementById("convertedNumber").textContent = "Value: " + num;
+        document.getElementById("convertedType").textContent = "Type: " + typeof num;
+    </script>
+</body>
+
+</html>
